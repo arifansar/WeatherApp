@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { View, Text, StyleSheet, FlatList, ActivityIndicator } from 'react-native';
 import axios from 'axios';
 
-const API_KEY = 'YOUR_OPENWEATHERMAP_API_KEY'; // Replace with your API key
+const API_KEY = 'YOUR_OPENWEATHERMAP_API_KEY'; 
 
 const WeatherScreen = ({ route }) => {
   const { city } = route.params;
